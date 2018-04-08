@@ -69,7 +69,7 @@ include("/database/config.php");
       </div>
       <p class="text-skill">Mis habilidades:</p>
       <div class="row skill">
-
+        <!--Aquí se cargan las habilidades-->
       </div>
       <div class="btns center-align">
         <a class="waves-effect show-more-skill btn-skill grey lighten-2">MOSTRAR MÁS</a>
@@ -149,22 +149,29 @@ include("/database/config.php");
           <div class="row">
             <form class="col s12">
               <div class="row">
-                <div class="input-field col s12 m6 l6">
-                  <input id="name" type="text" class="validate">
+                <div class="input-field col s12 m12 l6 tooltip">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="name" type="text">
                   <label for="name">Nombre</label>
+                  <span class="tooltiptext tooltip-name">Ingresa tu nombre</span>
                 </div>
-                <div class="input-field col s12 m6 l6">
-                  <input id="email" type="email" class="validate">
-                  <label for="email">Correo Electrónico</label>
+                <div class="input-field col s12 m12 l6 tooltip">
+                  <i class="material-icons prefix">email</i>
+                  <input id="email" type="email">
+                  <label for="email">Correo</label>
+                  <span class="tooltiptext tooltip-email-blank">Ingresa tu correo</span>
+                  <span class="tooltiptext tooltip-email-regexp">Correo inválido</span>
                 </div>
               </div>
               <div class="row">
-                <div class="input-field col s12 m12 l12">
-                  <textarea id="message" class="materialize-textarea"></textarea>
+                <div class="input-field col s12 m12 l12 tooltip">
+                  <i class="material-icons prefix">message</i>
+                  <textarea id="message" class="materialize-textarea" onpaste="return false;" data-length="360"></textarea>
                   <label for="message">Mensaje</label>
+                  <span class="tooltiptext tooltip-message">No olvides el mensaje</span>
                 </div>
               </div>
-              <a class="waves-effect btn-send grey lighten-2 col s6 offset-s6 m5 offset-m7 l4 offset-l8"><i class="material-icons left">send</i>Enviar</a>
+              <a class="waves-effect btn-send grey lighten-2 col s6 offset-s6 m8 offset-m4 l5 offset-l7"><i class="material-icons left">send</i>Enviar</a>
             </form>
           </div>
         </div>
