@@ -53,6 +53,8 @@ $(document).ready(function() {
 
   $('.sidenav').sidenav();
 
+  $('.carousel').carousel();
+
   $('#message').characterCounter();
 
   $('.tooltip-name').hide();
@@ -83,18 +85,20 @@ $(document).ready(function() {
 				$('html, body').animate({
 					scrollTop: target.offset().top
 				},
-				500,
-				function() {
-					var $target = $(target);
-					$target.focus();
-					if ($target.is(":focus")) {
-						return false;
-					}
-					else {
-						$target.attr('tabindex','-1');
-						$target.focus();
-					};
-				});
+				500
+        // ,
+				// function() {
+				// 	var $target = $(target);
+				// 	$target.focus();
+				// 	if ($target.is(":focus")) {
+				// 		return false;
+				// 	}
+				// 	else {
+				// 		$target.attr('tabindex','-1');
+				// 		$target.focus();
+				// 	};
+				// }
+      );
 			}
 		}
   });

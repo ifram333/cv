@@ -33,6 +33,7 @@ include("/database/config.php");
           <ul class="right hide-on-med-and-down">
             <li><a href="#main"><i class="fa fa-coffee"></i>Inicio</a></li>
             <li><a href="#about"><i class="fa fa-address-card"></i>Acerca de mí</a></li>
+            <!-- <li><a href="#portfolio"><i class="fa fa-folder-open"></i>Portafolio</a></li> -->
             <li><a href="#contact"><i class="fa fa-inbox"></i>Contáctame</a></li>
           </ul>
         </div>
@@ -42,8 +43,11 @@ include("/database/config.php");
     <ul class="sidenav" id="mobile-sidenav">
       <li><a class="sidenav-close" href="#main"><i class="fa fa-coffee"></i>Inicio</a></li>
       <li><a class="sidenav-close" href="#about"><i class="fa fa-address-card"></i>Acerca de mí</a></li>
+      <!-- <li><a class="sidenav-close" href="#portfolio"><i class="fa fa-folder-open"></i>Portafolio</a></li> -->
       <li><a class="sidenav-close" href="#contact"><i class="fa fa-inbox"></i>Contáctame</a></li>
     </ul>
+
+    <a href="file/ivan_ramirez.pdf" class="waves-effect waves-light btn-download" download="Iván Ramírez.PDF"><i class="fa fa-download"></i>MI PERFIL</a>
 
     <!-- Main section -->
     <div  id="main" class="bgimg-1">
@@ -78,54 +82,21 @@ include("/database/config.php");
     </div>
 
     <!-- Portfolio section -->
-    <div class="bgimg-2 hide">
+    <!-- <div class="bgimg-2">
       <div class="display-mid">
         <span>PORTAFOLIO</span>
       </div>
     </div>
 
-    <div id="portfolio" class="content container hide">
+    <div id="portfolio" class="content container">
       <h3 class="center-align">MI TRABAJO</h3>
-      <p class="center-align"><em>Aquí hay una muestra de algunos de los trabajos que he realizado.<br>Seleccionalos para ver más información</em></p><br>
+      <p class="center-align"><em>Una muestra de los proyectos en los que he trabajado</em></p>
 
-      <div class="row center-align">
-        <div class="col s12 m6 l3">
-          <img src="images/portfolio/p1.jpg" alt="Portafolio 1">
-        </div>
-
-        <div class="col s12 m6 l3">
-          <img src="images/portfolio/p2.jpg" alt="Portafolio 2">
-        </div>
-
-        <div class="col s12 m6 l3">
-          <img src="images/portfolio/p3.jpg" alt="Portafolio 3">
-        </div>
-
-        <div class="col s12 m6 l3">
-          <img src="images/portfolio/p4.jpg" alt="Portafolio 4">
-        </div>
-
-        <div class="col s12 m6 l3">
-          <img src="images/portfolio/p5.jpg" alt="Portafolio 5">
-        </div>
-
-        <div class="col s12 m6 l3">
-          <img src="images/portfolio/p6.jpg" alt="Portafolio 6">
-        </div>
-
-        <div class="col s12 m6 l3">
-          <img src="images/portfolio/p7.jpg" alt="Portafolio 7">
-        </div>
-
-        <div class="col s12 m6 l3">
-          <img src="images/portfolio/p8.jpg" alt="Portafolio 8">
-        </div>
+      <div class="row work">
+        Aquí se cargan los trabajos
       </div>
-      <div class="center-align">
-        <a class="waves-effect show-more btn-skill grey lighten-2">MOSTRAR MÁS</a>
-        <a class="waves-effect show-less btn-skill grey lighten-2">MOSTRAR MENOS</a>
-      </div>
-    </div>
+
+    </div> -->
 
     <!-- Contact Me section -->
     <div class="bgimg-3">
@@ -182,8 +153,6 @@ include("/database/config.php");
     <footer class="center-align grey darken-3 ">
       <a href="#main" class="btn-go-top waves-effect grey lighten-4"><i class="material-icons">arrow_upward</i>SUBIR</a>
       <div class="section">
-        <a href="https://twitter.com/ifram333" target="_blank" class="waves-effect btn-floating social"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.instagram.com/ifram333/" target="_blank" class="waves-effect btn-floating social"><i class="fa fa-instagram"></i></a>
         <a href="https://www.linkedin.com/in/ifram333/" target="_blank" class="waves-effect btn-floating social"><i class="fa fa-linkedin"></i></a>
         <a href="https://github.com/ifram333" target="_blank" class="waves-effect btn-floating social"><i class="fa fa-github"></i></a>
       </div>

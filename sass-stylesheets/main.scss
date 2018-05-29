@@ -225,3 +225,19 @@ button {
     visibility: visible;
     opacity: 1;
 }
+
+.btn-download {
+  height: 54px;
+  line-height: 54px;
+  font-size: 15px;
+  padding: 0 28px;
+  color: #fff;
+  background-color: #616161;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-download i{
+  margin: 0 8px;
+}
