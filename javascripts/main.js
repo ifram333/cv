@@ -141,9 +141,12 @@ $(document).ready(function() {
     $.ajax({
       type: 'POST',
       url: 'mailer.php',
-      data: {name1: name, email1: email, message1:message},
+      data: {name1: name, email1: email, message1: message},
       success: function(response) {
         M.toast({html: 'El correo ha sido enviado con exito.'})
+      },
+      error: function(response) {
+        M.toast({html: 'Oops, no se pudo enviar el correo.'})
       }
     });
 

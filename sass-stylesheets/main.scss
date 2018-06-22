@@ -160,10 +160,14 @@ form .input-field i {
   padding: 12px 24px !important;
 }
 
-.location {
-  font-size: 28px;
+.information {
+  font-size: 20px;
+  margin: 20px;
   i {
-    font-size: 38px;
+    font-size: 30px;
+  }
+  p {
+    margin: 8px;
   }
 }
 
@@ -236,8 +240,15 @@ button {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .btn-download i{
   margin: 0 8px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
 }

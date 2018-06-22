@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/html; charset=UTF-8');
 include("config.php");
 
 $result=mysqli_query($conn, "select name, knowledge from skill");

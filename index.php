@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/html; charset=UTF-8');
 include("/database/config.php");
 ?>
 
@@ -114,8 +115,9 @@ include("/database/config.php");
           <div id="map"></div>
         </div>
         <div class="col s12 m6 l6">
-          <div class="row">
-            <p class="location col s12 m12 l12"><i class="material-icons">location_on</i>Cali, Colombia</p>
+          <div class="row information">
+            <p class="col s12 m12 l12"><i class="material-icons">location_on</i>Cali, Colombia</p>
+            <p class="col s12 m12 l12"><i class="material-icons">phone</i>(+57) 305 7365930</p>
           </div>
           <div class="row">
             <form class="col s12">
